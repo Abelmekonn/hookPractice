@@ -1,0 +1,38 @@
+/* Style for the container div */
+.increase-decrease-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style for the count display */
+.count-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the buttons */
+.button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style for the reset button */
+.reset-button {
+    background-color: #dc3545;
+}
+
+/* Style for hover effect on buttons */
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for active effect on buttons */
+.button:active {
+    transform: translateY(1px);
+}

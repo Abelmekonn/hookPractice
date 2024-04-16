@@ -1,0 +1,23 @@
+.progress{
+    background-color: var(--bg-black-50);
+    height: 100px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.progress-in{
+    height: 40px;
+    border-radius: 5px 72px 77px 5px;
+    background-color: red;
+}
+.skill-percent{
+    right:30px;
+    top: 0px;
+    font-weight: 300;
+    color: var(--text-black-900);
+    line-height: 20px;
+    text-align: end;
+    align-items: center;
+    margin-top: 10px;
+}
